@@ -1,7 +1,0 @@
-1. build twrp
-lunch full_ef39s-eng
-make -j3 recoveryimage
-
-2. clean
-make clobber
-
