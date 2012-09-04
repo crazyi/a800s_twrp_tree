@@ -1,0 +1,7 @@
+#
+# system.prop for ef39s
+#
+ro.product.locale.language=zh  
+ro.product.locale.region=CN  
+persist.sys.timezone=Asia/Shanghai
+
