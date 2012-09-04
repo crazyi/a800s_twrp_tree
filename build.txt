@@ -1,6 +1,7 @@
 1. dowload twrp to replace cwm in cm9 or cm10
 
 2. build twrp
+. ./build/envsetup.sh
 lunch full_ef39s-eng
 make -j3 recoveryimage
 
