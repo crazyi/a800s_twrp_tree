@@ -39,14 +39,14 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 
 
-BOARD_HAS_NO_SELECT_BUTTON := true
+
 # Use this flag if the board has a ext4 partition larger than 2gb
 #BOARD_HAS_LARGE_FILESYSTEM := true
 
 #BOARD_TOUCH_RECOVERY := true
 
 #TWRP
-BOARD_HAS_NO_SELECT_BUTTON := faulse
+BOARD_HAS_NO_SELECT_BUTTON := true
 # Use this flag if the board has a ext4 partition larger than 2gb
 # BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_USE_CUSTOM_RECOVERY_FONT:= \"roboto_15x24.h\"
@@ -62,5 +62,5 @@ TW_FLASH_FROM_STORAGE := true
 TW_HAS_REBOOT_BOOTLOADER := true
 
 #RECOVERY_TOUCHSCREEN_SWAP_XY := true
-RECOVERY_TOUCHSCREEN_FLIP_X := true
+#RECOVERY_TOUCHSCREEN_FLIP_X := true
 #RECOVERY_TOUCHSCREEN_FLIP_Y := true
