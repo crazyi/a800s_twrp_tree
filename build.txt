@@ -2,7 +2,7 @@
 
 2. build twrp
 . ./build/envsetup.sh
-lunch full_ef39s-eng
+lunch cm_ef39s-eng
 make -j3 recoveryimage
 
 3. clean
